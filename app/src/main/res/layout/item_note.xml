@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="200dp"
+    android:layout_margin="15dp"
+    android:backgroundTint="@android:color/darker_gray"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/title_note"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_content_note"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:ellipsize="end"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_red_light"
+            android:maxLines="8"
+            android:text="@string/content_note" />
+
+        <TextView
+            android:id="@+id/tv_time_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datetime_example"
+            android:layout_marginTop="10px"
+            android:textStyle="italic"
+            android:textSize="10dp"
+            android:textAlignment="textEnd"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
