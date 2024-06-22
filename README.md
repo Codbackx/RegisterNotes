@@ -16,7 +16,7 @@
 ### 6. [ViewHolder]
 (https://github.com/JeancaDeve/RegisterNotes/blob/master/app/src/main/java/com/codycod/notecod/ui/viewholders/NotesListViewHolder.kt)
 
-### 7. (Adapter)
+### 7. [Adapter]
 (https://github.com/JeancaDeve/RegisterNotes/blob/master/app/src/main/java/com/codycod/notecod/ui/adapters/NotesListAdapter.kt)
 
 ### 8. [Actividad de la Lista de registros]
