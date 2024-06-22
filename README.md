@@ -1,6 +1,6 @@
-# Archivos Importantes para usar Room
+### Archivos Importantes para usar Room
 
-## Modelo
+**Modelo**
 
-### 1. `MdNote.kt` :
+### 1. [MdNote.kt] :
 Este arhivo es donde se hace la estructura del objeto que se va a guardar en la bd sqllite
